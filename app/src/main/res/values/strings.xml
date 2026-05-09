@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AnnoyingLine</string>
+    <string name="overlay_permission_title">1. Overlay Permission</string>
+    <string name="overlay_permission_desc">Required to draw the line over other apps.</string>
+    <string name="grant_permission">Grant Permission</string>
+    
+    <string name="overlay_settings_title">2. Overlay Settings</string>
+    <string name="enable_overlay">Enable Overlay</string>
+    <string name="start_on_boot">Start on Device Boot</string>
+    <string name="line_position">Line Position Nudge</string>
+    
+    <string name="advanced_settings_title">3. Anti-Disable Features</string>
+    <string name="hide_launcher_icon">Hide App Icon from Launcher</string>
+    <string name="hide_icon_desc">App will only be accessible via Android Settings -> Apps</string>
+    <string name="battery_opt_title">Samsung / Battery Optimization</string>
+    <string name="battery_opt_desc">To prevent the system from killing the overlay, you MUST exclude this app from battery optimization and Deep Sleep.</string>
+    <string name="request_battery_opt">Request Battery Exemption</string>
+
+    <string name="notification_channel_id">overlay_channel</string>
+    <string name="notification_channel_name">Overlay Service</string>
+    <string name="notification_title">AnnoyingLine is active</string>
+    <string name="notification_text">Persistent line overlay running.</string>
+    
+    <string name="hold_to_disable">Hold for 60s to disable</string>
+    
+    <string name="samsung_warning">Samsung Device Detected</string>
+    <string name="samsung_warning_msg">Samsung devices aggressively kill background apps. Please ensure AnnoyingLine is added to "Never sleeping apps" in your battery settings.</string>
+</resources>
